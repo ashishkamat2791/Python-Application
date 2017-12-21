@@ -25,7 +25,7 @@ SECRET_KEY = '4rry9di=glqeygixpkfupdex3e4jqslaz$ao)%8&o&(m(kv4ap'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','kamatsoftwares.com']
+ALLOWED_HOSTS = ['127.0.0.1','kamatsoftwares.com','ashishkamat2791.pythonanywhere.com']
 
 
 # Application definition
