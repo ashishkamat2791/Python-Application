@@ -9,10 +9,11 @@
             
     </head>
     <body>
-        <div>
+        <div> <div class="page-header">
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             <h1><a href="https://en.wikipedia.org/wiki/Django" class="external_link" id="link_to_wiki_page">Demo-App for Python study</a></h1>
         </div>
-        <div class="content container">
+            <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
                             {% block content %}
